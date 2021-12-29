@@ -13,9 +13,12 @@
 </head>
 
 <body>
+
+    <i class="bi bi-list menu-mobile"></i>
+
     <aside id="header">
         <section class="profile">
-            <img src="../static/img/perfil.jpg" alt="Foto Gustavo">
+            <img src="../static/img/fotoPerfil.jpg" alt="Foto Gustavo">
             <h1> Gustavo Vilaça </h1>
             <div class="social-links mt-4 text-center">
                 <a href="https://www.linkedin.com/in/gustavo-henrique-de-oliveira-vila%C3%A7a-576410224/"
@@ -37,12 +40,12 @@
         <nav id="navbar" class="nav-menu">
             <ul class="nav flex-column mt-4 text-left">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
+                    <a class="nav-link active" aria-current="page" href="#inicio">
                         <i class="bi bi-house"></i> Inicio
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="#sobre">
                         <i class="bi bi-person"></i> Sobre
                     </a>
                 </li>
@@ -73,7 +76,7 @@
 
     </aside>
 
-    <main id="main" >
+    <main id="main">
         <section id="inicio" class="row m-0 p-0">
             <div class="col-md-5 d-flex justify-content-center align-items-center flex-column">
                 <h2 class="text-white text-shadow">Gustavo Vilaça</h2>
@@ -82,9 +85,72 @@
             <div class="col-md-7 d-flex justify-content-end align-items-end">
                 <div id="arraste" class="d-flex align-items-center">
                     <i class="bi bi-arrow-down text-white pe-2 fs-2" aria-hidden="true"></i>
-                    <a href="">Arraste para Mais</a>
+                    <a href="#sobre">Arraste para Mais</a>
                 </div>
             </div>
+        </section>
+
+        <section id="sobre" class="container mt-5 ">
+            <div class="row w-100">
+                <div class="col-md-12">
+                    <h2 class="pt-3"> Sobre </h2>
+                    <p>
+                        Estar buscando aumentar o seu conhecimento com novas ferramentas, novas linguagems, metodos de
+                        trabalho.
+                        Possuir conhecimento em diversas aréas mas se sentir despreparado, a causa desse sentimento é a
+                        incerteza.
+                        Incerteza dos novos desafios que você irá passar, pode ser que a realidade seja muito mais
+                        simples, do que a sua expectativa.
+                        Por isso é hora de encarar de frente, para entender de vez, se realmente falta algo, ou se você
+                        está pronto.
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img class="img-fluid shadow" src="../static/img/fotoPerfil.jpg" alt="Foto Gustavo">
+                </div>
+                <div class="col-md-8">
+                    <h3> Professor no IFTM-Polo Ibiá</h3>
+                    <p>
+                        Durante o periodo entre junho de 2018 e agosto de 2021 lecionando disciplinas como: Manutenção
+                        de Computadores, Arquitetura de Dados, Redes de Computadores, Introdução a computação.
+                    </p>
+                    <div class="row mt-3 mb-3">
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush fs-6 fw-bolder">
+                                <li class="list-group-item">
+                                    Nascimento: <span class="fw-lighter"> 5 de Junho de 1995</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Idade: <span class="fw-lighter"> 26 anos </span>
+                                </li>
+                                <li class="list-group-item">
+                                    Hobby: <span class="fw-lighter"> Handebol </span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-6">
+                            <ul class="list-group list-group-flush fs-6 fw-bolder">
+                                <li class="list-group-item">
+                                    Cidade: <span class="fw-lighter"> Ibiá</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Estado: <span class="fw-lighter"> Minas Gerais</span>
+                                </li>
+                                <li class="list-group-item">
+                                    Clube: <span class="fw-lighter"> Cruzeiro Esporte Clube</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>
+                        Também dando alguns mini-cursos de programação WEB, com contéudos sobre HTML5, CSS3 e Javascript.
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
